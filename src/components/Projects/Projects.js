@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/aarushfun.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/stock.png";
+import chatify from "../../Assets/Projects/hand (2).png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/CPI.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AI Based Prosthetic Hand"
+              description="An AI-based prosthetic hand that uses Arduino and computer vision to replicate natural hand movements. The system employs a computer's camera to identify finger positions and translates these actions onto the robotic hand. The prosthetic hand is trained on a comprehensive database of hand movements, ensuring accurate and responsive replication of gestures. This project showcases the integration of machine learning and robotics, demonstrating advanced assistive technology capabilities."
+              ghLink="https://github.com/aarushk09/hand"
+              demoLink="https://portfolio-v2f.vercel.app/Untitled%20video%20-%20Made%20with%20Clipchamp%20(2).webm"
             />
           </Col>
 
@@ -36,10 +36,12 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="CPI"
+              description="CPI, or Competitive Programming Initiative, is a dedicated platform aimed at enhancing the skills of students in the realm of competitive programming. It provides resources, training sessions, and a supportive community to help students excel in coding competitions. Through CPI, participants have access to expert guidance, practice problems, and opportunities to collaborate with peers, enabling them to develop their algorithmic thinking and problem-solving abilities. This initiative is instrumental in preparing students for various coding contests and fostering a passion for computer science.
+
+"
+              ghLink="https://github.com/aarushk09/usaco-guide"
+              demoLink="https://usaco.guide/dashboard"
             />
           </Col>
 
@@ -47,10 +49,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="AI Stock Market Predictor"
+              description="The Stock Market Predictor is a sophisticated application developed in Python that successfully predicts stock market trends with over 90% accuracy. Utilizing advanced machine learning algorithms, the model analyzes historical data and market indicators to forecast future stock movements. This high success rate is achieved through rigorous training and fine-tuning of the predictive models, making it a powerful tool for investors and traders looking to make informed decisions based on reliable data-driven insights.
+
+"
+              ghLink="https://github.com/aarushk09/stockmarket1"
             />
           </Col>
 
@@ -58,35 +61,15 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Aarush.fun"
+              description="Aarush.fun is an engaging and versatile website designed to provide both entertainment and utility. It features a variety of games, including the popular Stack Tower, which challenges players to build the tallest tower possible by stacking blocks with precision. In addition to its gaming offerings, Aarush.fun also includes useful tools such as an HTML code compiler, enabling users to write, test, and debug their code directly within the browser. This combination of fun and functional elements makes Aarush.fun a go-to destination for both relaxation and productivity.
+
+"
+              ghLink="https://github.com/aarushk09/newaarushfun"
+              demoLink="https://aarushk09.github.io/newaarushfun/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

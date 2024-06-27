@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3.5em !important;
+  width: 3.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -260,9 +260,11 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover; /* Add this line */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;

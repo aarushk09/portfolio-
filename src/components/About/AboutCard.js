@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-           Hello, I am <span className="purple">Aarush Kute</span>
+           Hello, I am <span className="purple">Aarush Kute </span>
             from <span className="purple"> Cumming, Georgia.</span>
             <br />
             I am currently a Junior at South Forsyth High School.
